@@ -1,9 +1,10 @@
 class Array{
     public static void main(String[] args){
-        int arr[] = {1,23,2,34,4};
+        System.out.println("Index Value");
+        int arr[] = {2,1,2,342,2,2};
 
-
-        System.out.println(arr[2]);
-
+        for(int i = 0; i < arr.length; i++){
+            System.out.println(i + "\t" + arr[i]);
+        }
     }
 }
